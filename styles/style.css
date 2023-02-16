@@ -15,21 +15,24 @@
 body{
     font-family: 'Work Sans', sans-serif; 
 }
-.default-btn{
+.btn{
     background-color: #FF900E;
-    width: 180px;
-    height: auto;
-    padding: 10px 20px;
+    padding: 10px 10px;
     text-align: center;
     border-radius: 7px;
-    position: relative;
-    left: 300px;
+   
 }
-.default-btn a{
+/* .btn {
     text-decoration: none;
     color: white;
     font-weight: 600;
     font-size: 20px;
+} */
+.default-color{
+    color: #FF900E;
+}
+.another-color{
+    color: gray;
 }
 
 /* Header section css start */
@@ -62,6 +65,7 @@ body{
 .menu ul li a{
     text-decoration: none;
     color: #424242;
+    font-size: 18px;
 }
 
 /* Banner section */
@@ -84,4 +88,97 @@ body{
 
 .banner-img img{
     width: 100%;
+}
+
+/* Feature section */
+.features-section{
+    /* margin-top: 80px; */
+    padding: 70px 0px;
+}
+.features-content{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.feature-right-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.feature-right-content img{
+    width: 100%;
+}
+.feature-left-content{
+    width: 50%;
+}
+.feature-left-content h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.feature-left-content p{
+    line-height: 1.5em;
+}
+
+/* Love and enjoy section */
+.love-and-enjoy-section{
+    padding: 80px 0px;
+}
+.love-and-enjoy-container{
+    display: flex;
+    gap: 30px;
+}
+.basic-info{
+   width: 470px;
+}
+.basic-info h1{
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid orange;
+    margin-bottom: 15px;
+}
+.basic-info p{
+    line-height: 1.5em;
+    margin-bottom: 15px;
+}
+.love-and-enjoy-left-content{
+    width: 45%;
+}
+.service{
+    width: 450px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 7px;
+}
+.service h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.service p{
+    line-height: 26px;
+}
+.love-and-enjoy-right-content{
+    width: 50%;
+}
+.love-and-enjoy-right-content img{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: relative;
+}
+.experiance-info{
+    text-align: center;
+    background-color: orange;
+    width: 200px;
+    margin: auto;
+    border-radius: 7px;
+    padding: 20px 20px;
+    color: white;
+    margin-top: -90px;
+    z-index: 1;
+}
+.experiance-info h1{
+    font-size: 50px;
 }
