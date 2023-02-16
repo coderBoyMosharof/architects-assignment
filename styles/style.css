@@ -15,19 +15,19 @@
 body{
     font-family: 'Work Sans', sans-serif; 
 }
+
 .btn{
     background-color: #FF900E;
-    padding: 10px 10px;
+    padding: 10px 15px;
     text-align: center;
     border-radius: 7px;
-   
-}
-/* .btn {
     text-decoration: none;
     color: white;
-    font-weight: 600;
-    font-size: 20px;
-} */
+    font-size: 18px;
+    margin-top: 10px;
+   
+}
+
 .default-color{
     color: #FF900E;
 }
@@ -38,7 +38,7 @@ body{
 /* Header section css start */
 .header-section{
     background-color: #FF900E1A;
-    height: 1020px;
+    height: 1050px;
     padding: 20px;
 
     
@@ -70,16 +70,20 @@ body{
 
 /* Banner section */
 .banner-content-section {
-    width: 758px;
-    height: 270px;
-    margin: auto;
-    margin-top: 100px;
+    padding: 50px 0px;
+}
+.banner-section{
+    margin-top: 80px;
 }
 .banner-content{
     text-align: center;
+    width: 758px;
+    height: 200px;
+    margin: auto;
 }
 .banner-content h1{
     margin-bottom: 10px;
+    font-size: 60px;
 }
 .banner-content p{
     line-height: 1.5em;
@@ -88,11 +92,11 @@ body{
 
 .banner-img img{
     width: 100%;
+    margin-top: 50px;
 }
 
 /* Feature section */
 .features-section{
-    /* margin-top: 80px; */
     padding: 70px 0px;
 }
 .features-content{
@@ -117,6 +121,7 @@ body{
 }
 .feature-left-content p{
     line-height: 1.5em;
+    margin-bottom: 10px;
 }
 
 /* Love and enjoy section */
@@ -135,6 +140,7 @@ body{
     font-weight: 700;
     border-left: 5px solid orange;
     margin-bottom: 15px;
+    padding: 0px 15px;
 }
 .basic-info p{
     line-height: 1.5em;
@@ -178,7 +184,78 @@ body{
     color: white;
     margin-top: -90px;
     z-index: 1;
+    position: relative;
+    left: 55px;
 }
 .experiance-info h1{
     font-size: 50px;
+}
+
+/* Facts information section */
+.someFact-section{
+    padding: 70px 0px;
+}
+.facts-title{
+    width: 450px;
+    margin-bottom: 70px;
+}
+.facts-title h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.facts-info-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fact-info{
+    border: 1px solid orange;
+    padding: 20px;
+    text-align: center;
+    width: 140px;
+    height: auto;
+    border-radius: 7px;
+}
+.fact-info img, h2, p{
+    margin-bottom: 10px;
+}
+
+
+/* sopnsor section */
+.sponsor-section{
+    padding: 70px 0px;
+}
+.sponsor-details{
+    width: 500px;
+    margin: auto;
+}
+.sponsor-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sponsor-title h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.sponsor-agence{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sponsor-agence img{
+    width: 100px;
+    height: auto;
+}
+
+/* Footer section */
+.footer-section{
+    padding: 70px 0px;
+}
+
+.footer-content{
+    text-align: center;
+    background-color: #FF900E1A;
+    padding: 30px;
+    font-size: 20px;
+    border-radius: 8px;
 }
