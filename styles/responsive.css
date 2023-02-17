@@ -40,7 +40,9 @@
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
-
+.feature-right-content img{
+    width: 100%;
+}
     .love-and-enjoy-section{
         padding: 0px 50px;
     }

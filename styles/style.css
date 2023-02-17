@@ -217,6 +217,10 @@ body{
     width: 140px;
     height: auto;
     border-radius: 7px;
+    transition: .5s;
+}
+.fact-info:hover{
+    transform: scale(1.5, 1.5);
 }
 .fact-info img, h2, p{
     margin-bottom: 10px;
