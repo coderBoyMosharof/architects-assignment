@@ -27,6 +27,9 @@ body{
     margin-top: 10px;
    
 }
+.hide{
+    display: none;
+}
 
 .default-color{
     color: #FF900E;

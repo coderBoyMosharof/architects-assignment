@@ -1,0 +1,91 @@
+/* Mobile device view */
+@media screen and (max-width: 576px) {
+    .container{
+        width: 100%;
+    }
+    .header-section{
+       height: 730px;
+        padding: 25px;
+        
+    }
+    .header-content{
+        flex-direction: column;
+        
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .banner-content-section{
+        padding: 0px;
+    }
+    .banner-content h1{
+        font-size: 40px;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-img img {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .features-content{
+        flex-direction: column;
+       
+    }
+    .feature-left-content h1{
+        font-size: 30px;
+    }
+    .feature-right-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .love-and-enjoy-section{
+        padding: 0px 50px;
+    }
+    .love-and-enjoy-container{
+        flex-direction: column;
+        
+    }
+
+    
+    .basic-info h1{
+        font-size: 30px;
+        
+    }
+    
+    .love-and-enjoy-right-content{
+        text-align: center;
+    }
+    .experiance-info{
+        display: none;
+    }
+.someFact-section{
+    padding: 20px 50px;
+}
+    .facts-title{
+        text-align: center;
+        padding: 30px;
+    }
+
+    .facts-info-container{
+        flex-direction: column;
+        
+        row-gap: 20px;
+        
+    }
+.sponsor-section{
+    width: 100%;
+}
+   .sponsor-agence{
+    flex-direction: column;
+    row-gap: 30px;
+   }
+   .footer-section{
+    /* width: 100%; */
+   }
+   .footer-content{
+    font-size: 16px;
+   }
+}
